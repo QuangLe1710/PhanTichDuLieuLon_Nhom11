@@ -6,7 +6,6 @@ tương ứng với các bước trong quy trình phân tích và mô hình hóa
 
 Cấu trúc thư mục
 1. Code_Arima : Thư mục này chứa mã nguồn cho việc xây dựng và phân tích các mô hình ARIMA:
-    AIC.py: Tính toán tiêu chí thông tin Akaike (AIC).
     arima.py: Cài đặt mô hình ARIMA cơ bản.
     intro.py: Giới thiệu sơ qua về bộ dữ liệu
     Sarima.py: Mô hình SARIMA (ARIMA theo mùa) bổ trợ cho Arima đối với bộ dữ liệu phức tạp , mùa vụ
