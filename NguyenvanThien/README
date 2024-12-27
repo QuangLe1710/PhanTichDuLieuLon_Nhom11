@@ -1,0 +1,23 @@
+Mô tả dự án
+
+Dự án này tập trung vào xử lý dữ liệu thời tiết hàng ngày, phân tích dữ liệu, và
+xây dựng mô hình ARIMA để dự báo. Các tập tin mã nguồn được tổ chức theo các thư mục
+tương ứng với các bước trong quy trình phân tích và mô hình hóa dữ liệu.
+
+Cấu trúc thư mục
+1. Code_Arima : Thư mục này chứa mã nguồn cho việc xây dựng và phân tích các mô hình ARIMA:
+    AIC.py: Tính toán tiêu chí thông tin Akaike (AIC).
+    arima.py: Cài đặt mô hình ARIMA cơ bản.
+    intro.py: Giới thiệu sơ qua về bộ dữ liệu
+    Sarima.py: Mô hình SARIMA (ARIMA theo mùa) bổ trợ cho Arima đối với bộ dữ liệu phức tạp , mùa vụ
+2. des_analyst: Thư mục này chứa mã nguồn phục vụ cho phân tích dữ liệu mô tả:
+    Frequency_columns.py: Tính toán tần suất xuất hiện của các giá trị trong các cột.
+    Heatmap.py: Vẽ biểu đồ nhiệt để phân tích tương quan.
+    histogram3D.py: Tạo biểu đồ histogram 3D.
+    ScatterPlot.py: Tạo biểu đồ scatter plot.
+3. pre_processing : Thư mục này chứa mã nguồn để tiền xử lý dữ liệu:
+    data_clean.py: Làm sạch dữ liệu thời tiết.
+    data_summarization.py: Tóm tắt và thống kê dữ liệu.
+
+Dataset_weather_daily.csv: Bộ dữ liệu thời tiết hàng ngày sử dụng trong phân tích.
+README : Chứa thông tin mô tả mã nguồn

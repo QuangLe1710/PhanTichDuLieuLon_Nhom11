@@ -92,11 +92,9 @@ def descriptive(data_count,column_min,column_max,column_medians,column_modes,col
         column_name = ' '
         data_complete.insert(loc=0, column=column_name, value=new_column_data)
         print(data_complete)
-        data_complete.to_csv('Thong_ke_1.txt', sep='\t', index=False)
 
 descriptive(data_count,column_min,column_max,column_medians,column_modes,column_q1,column_q2,column_q3,column_IQR,column_variances,column_std_devs)
 print('---------------------------------------------------------------------------------------------------------------------------------------------')
 # Tạo bảng thống kê (dùng hàm có sẵn)
 data_complete = df_numeric.describe(include='all')
 print(data_complete)
-data_complete.to_csv('Thong_ke_2.txt', sep='\t', index=False)
